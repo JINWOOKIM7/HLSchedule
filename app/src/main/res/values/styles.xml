@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="ScalableLayout">
+        <attr name="scale_base_width" format="float" />
+        <attr name="scale_base_height" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="View">
+        <attr name="scale_left" format="float" />
+        <attr name="scale_top" format="float" />
+        <attr name="scale_width" format="float" />
+        <attr name="scale_height" format="float" />
+
+        <attr name="scale_textsize" format="float" />
+
+        <attr name="scale_left_baseposition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <!--<attr name="scale_left_baseposition" format="integer" >-->
+        <!--<flag name="left" value="0" />-->
+        <!--<flag name="center" value="1" />-->
+        <!--<flag name="right" value="2" />-->
+        <!--</attr>-->
+        <attr name="scale_top_baseposition" format="enum">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TextView">
+        <!--<attr name="textview_wrapcontent_direction" 		format="string" />-->
+        <attr name="textview_wrapcontent_direction" format="enum">
+            <enum name="none" value="0" />
+            <enum name="left" value="10" />
+            <enum name="center_horizontal" value="20" />
+            <enum name="right" value="30" />
+            <enum name="top" value="100" />
+            <enum name="center_vertical" value="200" />
+            <enum name="bottom" value="300" />
+        </attr>
+        <attr name="textview_wrapcontent_resizesurrounded" format="boolean" />
+        <attr name="textview_wrapcontent_movesiblings" format="boolean" />
+    </declare-styleable>
+
+    <style name="Theme_list" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#00aebb</item>
+        <item name="colorPrimary">#00aebb</item>
+        <item name="colorPrimaryDark">#02909b</item>
+        <item name="colorControlHighlight">#00aebb</item>
+        <item name="colorControlNormal">#00aebb</item>
+    </style>
+
+
+
+    <style name="Theme_list2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">#00aebb</item>
+        <item name="colorPrimary">#00aebb</item>
+        <item name="colorPrimaryDark">#02909b</item>
+        <item name="colorControlHighlight">#00aebb</item>
+        <item name="colorControlNormal">#00aebb</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">#0068b7</item>
+        <item name="colorPrimary">#00aebb</item>
+        <item name="colorPrimaryDark">#02909b</item>
+        <item name="colorControlHighlight">#00CC55</item>
+        <item name="colorControlNormal">#FF0000</item>
+    </style>
+</resources>
+

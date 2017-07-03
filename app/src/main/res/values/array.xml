@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="week">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="sub">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="isu_div">
+        <item>전공</item>
+        <item>필수기초</item>
+        <item>선택기초</item>
+        <item>핵심교양</item>
+        <item>일반교양</item>
+        <item>특별교과과정</item>
+        <item>한림소양</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="major">
+        <item>구분</item>
+        <item>인문학부</item>
+        <item>국어국문학전공</item>
+        <item>철학전공</item>
+        <item>사학전공</item>
+        <item>영어영문학과</item>
+        <item>중국학과</item>
+        <item>일본학과</item>
+        <item>러시아학과</item>
+        <item>심리학과</item>
+        <item>사회학과</item>
+        <item>사회복지학부</item>
+        <item>사회복지학</item>
+        <item>노인복지학</item>
+        <item>정치행정학과</item>
+        <item>미디어커뮤니케이션학부</item>
+        <item>언론방송융합미디어전공</item>
+        <item>디지털미디어콘텐츠전공</item>
+        <item>광고홍보학과</item>
+        <item>법학과</item>
+        <item>경영학과</item>
+        <item>경제학과</item>
+        <item>재무금융학과</item>
+        <item>수리금융정보학과</item>
+        <item>응용광물리학과</item>
+        <item>화학과</item>
+        <item>생명과학과</item>
+        <item>바이오메디컬학과</item>
+        <item>환경생명공학과</item>
+        <item>식품영양학과</item>
+        <item>체육학과</item>
+        <item>언어청각학부</item>
+        <item>언어병리학전공</item>
+        <item>청각학전공</item>
+        <item>컴퓨터공학과</item>
+        <item>융합소프트웨어학과</item>
+        <item>전자공학과</item>
+        <item>융합신소재공학과</item>
+        <item>의예과</item>
+        <item>의학과</item>
+        <item>간호학</item>
+        <item>간호학사특별과정</item>
+        <item>국제학부</item>
+        <item>국제통상경영전공</item>
+        <item>한중통번역전공</item>
+        <item>정보법과학전공</item>
+    </string-array>
+
+    <string-array name="essential">
+        <item>구분</item>
+        <item>읽기와쓰기</item>
+        <item>대학영어1</item>
+        <item>대학영어2</item>
+        <item>대학영어3</item>
+        <item>대학영어4</item>
+        <item>발표와토론</item>
+    </string-array>
+
+    <string-array name="choice">
+        <item>구분</item>
+        <item>어문</item>
+        <item>정보소통</item>
+        <item>기초과학</item>
+    </string-array>
+
+    <string-array name="core">
+        <item>구분</item>
+        <item>(핵심)융복합</item>
+        <item>(핵심)인문학</item>
+        <item>(핵심)사회과학</item>
+        <item>(핵심)자연과학과공학</item>
+    </string-array>
+
+    <string-array name="general">
+        <item>구분</item>
+        <item>인문학</item>
+        <item>사회과학</item>
+        <item>자연과학</item>
+        <item>문화및예술</item>
+        <item>국제화</item>
+        <item>한국어및한국문화</item>
+        <item>진로탐색</item>
+        <item>특별프로그램</item>
+    </string-array>
+
+    <string-array name="special">
+        <item>구분</item>
+        <item>영상문예창작</item>
+        <item>청소년학</item>
+        <item>한중비지니스</item>
+        <item>디지털게임</item>
+        <item>디지털북</item>
+        <item>문화콘텐츠교육사</item>
+        <item>LOHAS서비스전문가</item>
+        <item>헬스케어바이오제품전문가</item>
+        <item>유헬스ICT서비스전문가</item>
+        <item>르네상스인문학</item>
+        <item>고령화친화서비스</item>
+        <item>동북아지역</item>
+        <item>광고홍보학과</item>
+    </string-array>
+
+    <string-array name="hallym">
+        <item>구분</item>
+        <item>(시민)독서</item>
+        <item>(시민)글로벌</item>
+        <item>(시민)봉사</item>
+        <item>(시민)체육</item>
+        <item>생애설계</item>
+    </string-array>
+
+    <string-array name="etc">
+        <item>구분</item>
+        <item>산학협력단</item>
+        <item>가상대학</item>
+        <item>교직과목</item>
+        <item>ROTC과목</item>
+        <item>평생교육사과목</item>
+        <item>현지교육</item>
+        <item>사이버</item>
+    </string-array>
+
+</resources>

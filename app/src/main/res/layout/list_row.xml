@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/noTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/majorTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:layout_weight="23"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/nameTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:layout_weight="22"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/banTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:layout_weight="5"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/hakTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:layout_weight="5"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/isuTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:layout_weight="10"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/profTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:layout_weight="12"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:id="@+id/timeTextview"
+            android:textAlignment="center"
+            android:background="@drawable/list_xml"
+            android:gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:layout_weight="11"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:focusable="false"
+            android:background="@drawable/button_xml"
+            android:text="+"
+            android:textColor="#ffffff"
+            android:layout_weight="8"
+            android:textSize="12dp"
+            android:layout_marginBottom="0.1dp" />
+
+</LinearLayout>

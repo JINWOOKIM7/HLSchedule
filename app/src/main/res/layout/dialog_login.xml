@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp' >
+
+    <EditText
+        android:id='@+id/login_name'
+        android:layout_width='fill_parent'
+        android:layout_height='wrap_content'
+        android:hint='학번'
+        android:inputType="number"
+        android:singleLine='true' >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id='@+id/login_password'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='비밀번호'
+        android:ems='10'
+        android:inputType='textPassword' >
+    </EditText>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자동로그인"
+        android:id="@+id/checkBox_login"
+        android:checked="false" />
+
+</LinearLayout>

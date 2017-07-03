@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_over"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_over"
+            android:textAlignment="center"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:digits="0123456789"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학점 이상"
+            android:id="@+id/textView_over"
+            android:textSize="15dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_under"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_under"
+            android:textAlignment="center"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:digits="0123456789"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학점 이하"
+            android:id="@+id/textView_under"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_week"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주"
+            android:id="@+id/textView_week1"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/spinner_week"
+            android:spinnerMode="dropdown"
+            android:entries="@array/week"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일 수업"
+            android:id="@+id/textView_week2"
+            android:textSize="15dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox_sub"
+            android:checked="false"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과목"
+            android:id="@+id/textView_sub1"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/spinner_sub"
+            android:entries="@array/sub"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개 이상"
+            android:id="@+id/textView_sub2"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="필수과목"
+            android:id="@+id/textView_essential"
+            android:layout_marginRight="46dp"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <ListView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView_essential"
+            android:layout_marginLeft="10dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

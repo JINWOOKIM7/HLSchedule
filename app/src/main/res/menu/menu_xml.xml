@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Activity.MainActivity">
+    <item android:id="@+id/action_add"
+        android:title="추가"
+        app:showAsAction="always|withText"/>
+    <item android:id="@+id/action_set"
+        android:title="설정"
+        app:showAsAction="always|withText"/>
+
+</menu>
